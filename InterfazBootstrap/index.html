@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <!-- Header-->
+    <header>
+      <nav class="navbar navbar-expand-md m-0 p-0 nav navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand m-0 p-0" href="#">
+            <img id="logo" src="/img/logo_MichelleStore-removebg-preview.png" alt="LOGO" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"  >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-black" href="/paginasExtras/productos.html">PRODUCTOS EN OFERTA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#conviertete-en-colaborador">TRABAJA CON NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="/paginasExtras/catalogo.html">CATALOGO</a>
+              </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <main id="main">
+      <!-- carrusel-->
+      <div
+        id="carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-pause="“false”"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/modelo free1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/modelo free2.jpg"  class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/modelo free3.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/modelo free4.jpg"  class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <div class="overlay">
+          <!-- Pt = Pading -->
+          <div class="container pt-5">
+            <!--  al centro-->
+            <div class="row aling-items-center">
+              <div class="col-md-6 offset-md-6 text-center text-lg-rigth">
+                <h1 style="color:cornsilk" 
+                >Michelle Store</h1>
+                <p style="color:cornsilk">
+                  Michelle Store es una marca de una emprendedora, creada para todo el Ecuador!
+                  queremos que todos vistan a la moda a un precio accesible y lo Mejor de tod producto Ecuatoriano
+                </p>
+                <a href="#conviertete-en-colaborador" id="boton-alterno" class="btn btn-outline-warning">Quiero ser colaborador</a>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- cartas -->
+      <section id="productos" class="mt-4 mb-4">
+        <div class="container"> 
+          <div class="row">
+            <div class="col text-center text-uppercase">
+              <small>Conoce nuestros productos</small>
+              <h2>PRODUCTOS</h2>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 mb-4 ms-4">
+            <div class="card">
+              <img src="/img/modelo free4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <span class="badge rounded-pill bg-warning text-dark">Tiempo Limitado</span>
+                  <span class="badge rounded-pill bg-success">En Oferta</span>
+                <h5 style="color:#a25588"class="card-title">ROPA DE SEGUNDA MANO</h5>
+                <p class="card-text">VENTA DE ROPA DE SEGUNDA MANO SIN FALLAS ALGUNAS PUEDES ENCONTRAR PROMOCIONES.</p>
+                <a href="#" class="btn btn-info">INGRESA AQUI</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4 ms-4">
+            <div class="card" style="width: 18rem;">
+              <img src="/img/modelo free5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <span class="badge rounded-pill bg-warning text-dark">Tiempo Limitado</span>
+                  <span class="badge rounded-pill bg-success">En Oferta</span>
+                <h5 style="color:#a25588" class="card-title">Ropa de Paca </h5>
+                <p class="card-text">La ropa de paca es la ropa de segunda mano, ropa usada que fue descartada por sus dueños, que fue donada, y que luego es comercializada a un precio muy accesible.</p>
+                <a href="#" class="btn btn-info">INGRESA AQUI</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4 ms-4">
+            <div class="card" style="width: 18rem;">
+              <img src="/img/modelo free2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <span class="badge rounded-pill bg-warning text-dark">Tiempo Limitado</span>
+                  <span class="badge rounded-pill bg-success">En Oferta</span>
+                <h5 style="color:#a25588" class="card-title">"Ropa de Verano"</h5>
+                <p class="card-text">Verano debe ser cómoda, ligera y hecha con materiales naturales y transpirables.</p>
+                <a href="#" class="btn btn-info">INGRESA AQUI</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4 ms-4">
+            <div class="card" style="width: 18rem;">
+              <img src="/img/modelo free1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <span class="badge rounded-pill bg-warning text-dark">Tiempo Limitado</span>
+                  <span class="badge rounded-pill bg-success">En Oferta</span>
+                <h5 style="color:#a25588" class="card-title">Ropa de Casual</h5>
+                <p class="card-text">Podríamos definir la palabra “casual” como un concepto relacionado con el término casualidad, el cual hace referencia a una combinación de circunstancias imprevisibles e inevitables.</p>
+                <a href="#" class="btn btn-info">INGRESA AQUI</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4 ms-4">
+            <div class="card" style="width: 18rem;">
+              <img src="/img/modelo free3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <span class="badge rounded-pill bg-warning text-dark">Tiempo Limitado</span>
+                  <span class="badge rounded-pill bg-success">En Oferta</span>
+                <h5 style="color:#a25588" class="card-title">Ropa de Gala</h5>
+                <p class="card-text">Un vestido de fiesta es una prenda de vestir femenina, para brindar elegancia en eventos significativos. .</p>
+                <a href="#" class="btn btn-info">INGRESA AQUI</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4 ms-4">
+            <div class="card" style="width: 18rem;">
+              <img src="/img/modelo free5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <span class="badge rounded-pill bg-warning text-dark">Tiempo Limitado</span>
+                  <span class="badge rounded-pill bg-success">En Oferta</span>
+                <h5  style="color:#a25588" class="card-title">Vende tu ropa</h5>
+                <p class="card-text">Esta es tu oportunidad para vender tu ropa que ya no estas usando ingresa y puedes ofreser tu ropa y te la pagamos.</p>
+                <a href="#" class="btn btn-info">INGRESA AQUI</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    <!--Eventos -->
+      <section id="evento-marca">
+        <div class="container-fliud">
+          <div class="row">
+            <div class="col-12 col-lg-6 ps-0 pe-0">
+              <img src="/img/buyclub.webp" alt="Imagen evento">
+            </div>
+            <div class="col-12 col-lg-6 text-center mt-4 pb-3">
+              <h2>Evento Especial de Temporada</h2>
+              <h3 class="mb-3">DICIEMBRE 2022</h3>
+              <p>La Lolita en Instagrama nos va a ayudar con una charla de vestimenta para todas las personas que quieran conocer sobre las nuevas tendecias de moda </p>
+              <a href="#" id="boton-alterno" class="btn btn-outline-dark">Conoce mas...</a>
+            </div>
+          </div>
+        </div>
+      </section>
+   
+    <!--modal -->
+    <section id="conviertete-en-colaborador" class="pt-3 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col text-uppercase text-center">
+           
+            <h2>Trabaja con nosotros</h2>
+          
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <!--tooltip-->
+            <p>Incribete como <abbr data-bs-toggle="tooltip" data-bs-html="true" title="Vendedor Oficial de Michelle store">colaborador Michelle Store</abbr> obten ingresos extras</p>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+              <form id="form">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Nombres completos</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Apellidos completos</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <textarea class="form-control" placeholder="Cuentanos por que quiere unirte a nosotros" id="floatingTextarea2" style="height: 100px"></textarea>
+                  <label for="floatingTextarea2">Cuentanos por que quiere unirte a nosotros</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <div class="container mt-3">
+                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal">Enviar</button>
+                    <div class="container mt-3">
+                    <div class="modal" id="myModal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-little">Mensaje enviado</h5>
+                            <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                          </div>
+                          <div class="modal-body">
+                            Mnesaje enviado exitosamente 
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-warning" data-bs-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+    <!-- footer-->
+    <footer id="footer" class="pb-4 pt-4">
+      <div class="container">
+        <div class="row tex center">
+        <div class="col-12 col-lg">
+            <a style="color:#111110" href="/paginasExtras/contactanos.html">Contactanos</a>
+          </div>
+          <div class="col-12 col-lg">
+            <h6>© 2022 Michelle todos los derechos reservados.</h6></div>
+          <div class="col-12 col-lg">
+            <a style="color:#111110" href="#">Trabaja con Michelle Store</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </footer>
+   
+
+</body>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+  integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+  integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+  crossorigin="anonymous"
+></script>
+<script src="/index.js"></script>
+</html>
+
